@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este é o meu projeto de aprendizagem de C# e Programação Orientada a Objetos, baseado no curso "C# COMPLETO Programação Orientada a Objetos + Projetos" ministrado pelo professor Nélio Alves na plataforma Udemy (Link do curso: https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/). É um curso de 38 horas de vídeo sob demanda e 23 artigos, que aborda desde o nivelamento até tópicos avançados e comerciais em C#.
+Este é o meu projeto de aprendizagem de C# e Programação Orientada a Objetos, baseado no curso "C# COMPLETO Programação Orientada a Objetos + Projetos" ministrado pelo professor Nélio Alves na plataforma Udemy (Link do curso: https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/). Este curso, por sua vez, é um curso de 38 horas de vídeo sob demanda e 23 artigos, que aborda desde o nivelamento até tópicos avançados e comerciais em C#.
 
 Neste projeto eu vou aplicar os conceitos e as técnicas ensinadas no curso, desenvolvendo diversos exemplos e projetos práticos, utilizando as principais tecnologias e frameworks do mercado, como .NET, ASP.NET Core, Entity Framework Core, etc. O objetivo é aprimorar as minhas habilidades em C# e Programação Orientada a Objetos, bem como criar um portfólio de projetos que demonstrem o meu conhecimento e a minha capacidade de resolver problemas reais.
 
