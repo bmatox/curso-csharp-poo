@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿
+using System.Globalization;
 
 namespace Nivelamento
 {
@@ -7,9 +8,6 @@ namespace Nivelamento
         public double A;
         public double B;
         public double C;
-        public double areaX;
-        public double areaY;
-
         public Triangulo(double a, double b, double c)
         {
             A = a;
