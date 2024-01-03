@@ -1,7 +1,6 @@
-﻿
-using System.Globalization;
+﻿using System.Globalization;
 
-namespace Nivelamento
+namespace Exercicio01
 {
     internal class Triangulo
     {
@@ -18,10 +17,10 @@ namespace Nivelamento
         public double Area()
         {
             double p = (A + B + C) / 2.0;
-            return System.Math.Sqrt(p * (p - A) * (p - B) * (p - C));
+            return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
         }
 
-        public void maiorArea(Triangulo x, Triangulo y)
+        public void MaiorArea(Triangulo x, Triangulo y)
         {
             double areaX = x.Area();
             double areaY = y.Area();

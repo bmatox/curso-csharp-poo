@@ -1,4 +1,4 @@
-﻿using Nivelamento;
+﻿using Exercicio01;
 
 internal class Program
 {
@@ -10,7 +10,6 @@ internal class Program
         x.Area();
         y.Area();
 
-       x.maiorArea(x, y);
-
+        x.MaiorArea(x, y);
     }
 }
