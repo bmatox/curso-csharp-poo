@@ -7,8 +7,8 @@ internal class Program
         Produto produto = new Produto("TV", 900.00, 10);
         produto.MostraDadosDoProduto();
         produto.AdicionarProdutos(5);
-        produto.MostraDadosDoProduto();
+        Console.WriteLine(produto.ToString());
         produto.RemoverProdutos(3);
-        produto.MostraDadosDoProduto();
+        Console.WriteLine(produto.ToString());
     }
 }
