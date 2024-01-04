@@ -1,4 +1,4 @@
-﻿// Nivelamento.
+﻿// Nivelamento - à partir do capítulo de classes, atributos, métodos, membros estáticos.
 using System.Globalization;
 
 namespace Exercicio01
