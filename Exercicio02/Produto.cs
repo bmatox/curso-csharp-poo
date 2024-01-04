@@ -1,4 +1,4 @@
-﻿// Nivelamento
+﻿// Nivelamento.
 using System.Globalization;
 
 namespace Exercicio02
