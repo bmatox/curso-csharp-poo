@@ -1,4 +1,6 @@
 ﻿
+using System.Globalization;
+
 namespace Exercicio02
 {
     internal class Produto
@@ -31,7 +33,7 @@ namespace Exercicio02
 
         public void MostraDadosDoProduto()
         {
-            Console.WriteLine("Dados atualizados do produto: " + Nome + ", R$ " + Preco + ", " + Quantidade + " unidades" + ", " + "Total: " + "R$ " + ValorTotalEmEstoque());
+            Console.WriteLine("Dados atualizados do produto: " + Nome + ", R$ " + Preco.ToString("F2", CultureInfo.InvariantCulture) + ", " + Quantidade + " unidades" + ", " + "Total: " + "R$ " + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
