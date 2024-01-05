@@ -4,10 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nivelamento", "Nivelamento", "{1DA3D45E-ACB2-4D21-9306-84831CDD548A}"
-	ProjectSection(SolutionItems) = preProject
-		Anotação01.txt = Anotação01.txt
-		Anotação02.txt = Anotação02.txt
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio01", "Exercicio01\Exercicio01.csproj", "{E2A37B22-00CC-4B89-8079-8252511493C3}"
 EndProject
@@ -18,6 +14,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio04", "Exercicio04\Exercicio04.csproj", "{4B154C47-D7B4-40D0-B2A1-F39D51DA8488}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio05", "Exercicio05\Exercicio05.csproj", "{E1F681F5-0ED6-40E3-BCA9-5BBBA5F54AC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OO Básico", "OO Básico", "{F4BFAD9B-2575-4C7C-AFD8-1FD85B30EE5A}"
+	ProjectSection(SolutionItems) = preProject
+		Anotação01.txt = Anotação01.txt
+		Anotação02.txt = Anotação02.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,7 +56,7 @@ Global
 		{000D63B7-0F15-428A-BCAB-ECBE0747B12D} = {1DA3D45E-ACB2-4D21-9306-84831CDD548A}
 		{D4C590C6-B092-4558-AB78-B1A128ECC226} = {1DA3D45E-ACB2-4D21-9306-84831CDD548A}
 		{4B154C47-D7B4-40D0-B2A1-F39D51DA8488} = {1DA3D45E-ACB2-4D21-9306-84831CDD548A}
-		{E1F681F5-0ED6-40E3-BCA9-5BBBA5F54AC3} = {1DA3D45E-ACB2-4D21-9306-84831CDD548A}
+		{E1F681F5-0ED6-40E3-BCA9-5BBBA5F54AC3} = {F4BFAD9B-2575-4C7C-AFD8-1FD85B30EE5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01BD2BB3-D7AD-41B9-979C-340496ACE902}
