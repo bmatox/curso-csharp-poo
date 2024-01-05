@@ -11,15 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio03", "Tópico 01 -
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio04", "Tópico 01 - Nivelamento\Exercicio04\Exercicio04.csproj", "{F43F700F-C6A2-4B14-A2C4-C29200C4A7A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio05", "Tópico 02 - OO Básica\Exercicio05\Exercicio05.csproj", "{C3B82576-A0E5-4D95-A7FF-0F33C51CA514}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tópico 01 - Nivelamento", "Tópico 01 - Nivelamento", "{46716219-D88A-4561-8337-BE281DFF685A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tópico 02 - OO Básico", "Tópico 02 - OO Básico", "{C5499D86-6A23-496A-9560-681CB6FDBD11}"
 	ProjectSection(SolutionItems) = preProject
-		Tópico 02 - OO Básica\Anotação01.txt = Tópico 02 - OO Básica\Anotação01.txt
-		Tópico 02 - OO Básica\Anotação02.txt = Tópico 02 - OO Básica\Anotação02.txt
+		Tópico 02 - OO Básico\Anotação01.txt = Tópico 02 - OO Básico\Anotação01.txt
+		Tópico 02 - OO Básico\Anotação02.txt = Tópico 02 - OO Básico\Anotação02.txt
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio05", "Tópico 02 - OO Básico\Exercicio05\Exercicio05.csproj", "{89070B70-EE44-479D-90DA-8787756C2E79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +43,10 @@ Global
 		{F43F700F-C6A2-4B14-A2C4-C29200C4A7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F43F700F-C6A2-4B14-A2C4-C29200C4A7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F43F700F-C6A2-4B14-A2C4-C29200C4A7A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3B82576-A0E5-4D95-A7FF-0F33C51CA514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3B82576-A0E5-4D95-A7FF-0F33C51CA514}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3B82576-A0E5-4D95-A7FF-0F33C51CA514}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3B82576-A0E5-4D95-A7FF-0F33C51CA514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89070B70-EE44-479D-90DA-8787756C2E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89070B70-EE44-479D-90DA-8787756C2E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89070B70-EE44-479D-90DA-8787756C2E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89070B70-EE44-479D-90DA-8787756C2E79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,7 +56,7 @@ Global
 		{2A7C5EE3-8399-43EB-82B6-9A3105E2EA1B} = {46716219-D88A-4561-8337-BE281DFF685A}
 		{56F6C1DF-DDDB-4699-A973-04068B47760C} = {46716219-D88A-4561-8337-BE281DFF685A}
 		{F43F700F-C6A2-4B14-A2C4-C29200C4A7A7} = {46716219-D88A-4561-8337-BE281DFF685A}
-		{C3B82576-A0E5-4D95-A7FF-0F33C51CA514} = {C5499D86-6A23-496A-9560-681CB6FDBD11}
+		{89070B70-EE44-479D-90DA-8787756C2E79} = {C5499D86-6A23-496A-9560-681CB6FDBD11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01BD2BB3-D7AD-41B9-979C-340496ACE902}
