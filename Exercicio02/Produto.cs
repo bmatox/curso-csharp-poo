@@ -9,11 +9,11 @@ namespace Exercicio02
         public double Preco;
         public int Quantidade;
 
-        public Produto(string Nome, double Preco, int Quantidade)
+        public Produto(string nome, double preco, int quantidade)
         {
-            this.Nome = Nome;
-            this.Preco = Preco;
-            this.Quantidade = Quantidade;
+            Nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
         }
 
         public double ValorTotalEmEstoque()

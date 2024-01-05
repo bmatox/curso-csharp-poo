@@ -1,0 +1,30 @@
+SOBRE SOBRECARGA: 
+
+É um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
+
+SOBRE O USO DO AUXILIAR "this.":
+
+É uma referência para o próprio objeto (atributo da classe)
+
+Usos comuns:
+• Diferenciar atributos de variáveis locais (problema comumente enfrentado no Java);
+• Referenciar outro construtor em um construtor;
+EX: 
+using System.Globalization;
+namespace Course {
+class Produto {
+public string Nome;
+public double Preco;
+public int Quantidade;
+public Produto() {
+Quantidade = 0;
+}
+public Produto(string nome, double preco) : this() {
+Nome = nome;
+Preco = preco;
+}
+public Produto(string nome, double preco, int quantidade) : this(nome, preco) {
+Quantidade = quantidade;
+}
+(...)
+• Passar o próprio objeto como argumento na chamada de um método ou construtor.
