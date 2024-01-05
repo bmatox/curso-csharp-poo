@@ -1,6 +1,6 @@
 ﻿using Exercicio04;
 using System.Globalization;
-
+//teste
 internal class Program
 {
     private static void Main(string[] args)
