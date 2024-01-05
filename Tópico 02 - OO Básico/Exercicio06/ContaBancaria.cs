@@ -25,7 +25,7 @@ namespace Exercicio06
         public string NomedoTitular { get; set; }
         public bool DepositoInicial { get; private set; }
         public double ValorDepositoInicial;
-        private double _saldo;      
+        private double _saldo;
 
         public ContaBancaria(int numeroContaBancaria, string nomedoTitular, bool depositoInicial, double valorDepositoInicial)
         {
@@ -34,6 +34,15 @@ namespace Exercicio06
             DepositoInicial = depositoInicial;
             ValorDepositoInicial = valorDepositoInicial;
 
+            // Inicializando o saldo com o valor do depósito inicial, se houver
+            if (DepositoInicial == true)
+            {
+                _saldo = ValorDepositoInicial;
+            }
+            else
+            {
+                _saldo = 0.0;
+            }
         }
 
         public double Saldo
@@ -41,15 +50,9 @@ namespace Exercicio06
             get { return _saldo; }
             set
             {
-                if (DepositoInicial == true)
-                {
-                    _saldo += ValorDepositoInicial;
-                }
-                else
-                {
-                    _saldo = value;
-                }
-            }         
+                // Atribuindo o valor do saldo sem alterar o valor do depósito inicial
+                _saldo = value;
+            }
         }
 
         public void Deposito(double ValorD)
