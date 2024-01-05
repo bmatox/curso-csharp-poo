@@ -15,9 +15,57 @@ informado o valor de depósito inicial. Em seguida, realizar um depósito e depo
 mostrando os dados da conta após cada operação.
 */
 
+using System.Globalization;
+
 namespace Exercicio06
 {
     internal class ContaBancaria
     {
+        public int NumeroContaBancaria { get; private set; }
+        public string NomedoTitular { get; set; }
+        public bool DepositoInicial { get; private set; }
+        public double ValorDepositoInicial;
+        private double _saldo;      
+
+        public ContaBancaria(int numeroContaBancaria, string nomedoTitular, bool depositoInicial, double valorDepositoInicial)
+        {
+            NumeroContaBancaria = numeroContaBancaria;
+            NomedoTitular = nomedoTitular;
+            DepositoInicial = depositoInicial;
+            ValorDepositoInicial = valorDepositoInicial;
+
+        }
+
+        public double Saldo
+        {
+            get { return _saldo; }
+            set
+            {
+                if (DepositoInicial == true)
+                {
+                    _saldo += ValorDepositoInicial;
+                }
+                else
+                {
+                    _saldo = value;
+                }
+            }         
+        }
+
+        public void Deposito(double ValorD)
+        {
+            _saldo += ValorD;
+        }
+        
+        public void Saque(double ValorS) 
+        {
+            _saldo -= (ValorS + 5);
+
+        }
+
+        public override string ToString()
+        {
+            return "Dados da conta atualizados:" + "\nConta: " + NumeroContaBancaria + ", Titular: " + NomedoTitular + ", Saldo: R$ " + _saldo.ToString("F2", CultureInfo.InvariantCulture);
+        }
     }
 }
