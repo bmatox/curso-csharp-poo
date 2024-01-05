@@ -18,7 +18,7 @@ namespace Exercicio05
         public string Nome // propertie comum com get e set determinados no corpo da implementação.
         {
             get { return _nome; }
-            set // como existe uma regra que determina a alteração do nome, o atributo continua sendo usado como private. 
+            set // como existe uma regra que determina a alteração do nome, o atributo continua sendo usado como private e é usada a propertie comum. 
             {
                 if (value != null && value.Length > 1)
                 {
