@@ -50,7 +50,7 @@ namespace Exercicio06
             get { return _saldo; }
             set
             {
-                // Atribuindo o valor do saldo sem alterar o valor do depósito inicial
+                // Atribuindo o valor do saldo sem alterar o valor do depósito inicial. Esse valor do value é recebido diretamente na classe principal (mesma ideia de receber um parâmetro do Java).
                 _saldo = value;
             }
         }
@@ -68,7 +68,12 @@ namespace Exercicio06
 
         public override string ToString()
         {
-            return "Dados da conta atualizados:" + "\nConta: " + NumeroContaBancaria + ", Titular: " + NomedoTitular + ", Saldo: R$ " + _saldo.ToString("F2", CultureInfo.InvariantCulture);
+            return "Dados da conta atualizados:" 
+                + "\nConta: " + NumeroContaBancaria 
+                + ", Titular: " 
+                + NomedoTitular 
+                + ", Saldo: R$ " 
+                + _saldo.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
