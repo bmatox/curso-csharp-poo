@@ -25,7 +25,7 @@ namespace Exercicio06
         public string NomedoTitular { get; set; }
         public bool DepositoInicial { get; private set; }
         public double ValorDepositoInicial;
-        private double Saldo;
+        public double Saldo { get; private set; }
 
         public ContaBancaria(int numeroContaBancaria, string nomedoTitular, bool depositoInicial, double valorDepositoInicial)
         {
