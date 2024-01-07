@@ -25,7 +25,7 @@ namespace Exercicio06
         public string NomedoTitular { get; set; }
         public bool DepositoInicial { get; private set; }
         public double ValorDepositoInicial;
-        private double _saldo;
+        private double Saldo;
 
         public ContaBancaria(int numeroContaBancaria, string nomedoTitular, bool depositoInicial, double valorDepositoInicial)
         {
@@ -37,32 +37,21 @@ namespace Exercicio06
             // Inicializando o saldo com o valor do depósito inicial, se houver
             if (DepositoInicial == true)
             {
-                _saldo = ValorDepositoInicial;
+                Saldo = ValorDepositoInicial;
             }
             else
             {
-                _saldo = 0.0;
+                Saldo = 0.0;
             }
         }
-
-        public double Saldo
-        {
-            get { return _saldo; }
-            set
-            {
-                // Atribuindo o valor do saldo sem alterar o valor do depósito inicial. Esse valor do value é recebido diretamente na classe principal (mesma ideia de receber um parâmetro do Java).
-                _saldo = value;
-            }
-        }
-
         public void Deposito(double ValorD)
         {
-            _saldo += ValorD;
+            Saldo += ValorD;
         }
         
         public void Saque(double ValorS) 
         {
-            _saldo -= (ValorS + 5);
+            Saldo -= (ValorS + 5);
 
         }
 
@@ -73,7 +62,7 @@ namespace Exercicio06
                 + ", Titular: " 
                 + NomedoTitular 
                 + ", Saldo: R$ " 
-                + _saldo.ToString("F2", CultureInfo.InvariantCulture);
+                + Saldo.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
