@@ -1,0 +1,19 @@
+﻿Tipos referência vs. tipos valor:
+
+CLASSE x STRUCT
+Vantagem: usufrui de todos recursos OO x Vantagem: é mais simples e mais performático
+Variáveis são ponteiros x Variáveis são caixas
+Objetos precisam ser instanciadas usando new, ou
+apontar para um objeto já existente. x Não é preciso instanciar usando new, mas é possível
+Aceita valor null x Não aceita valor null
+Suporte a herança x Não tem suporte a herança (mas pode implementar
+interfaces)
+Y = X;
+"Y passa a apontar para onde X aponta" x
+Y = X;
+"Y recebe uma cópia de X"
+Objetos instanciados no heap x Objetos instanciados no stack
+Objetos não utilizados são desalocados em um
+momento próximo pelo garbage collector x 
+"Objetos" são desalocados imediatamente quando
+seu escopo de execução é finalizado

@@ -1,0 +1,4 @@
+Desalocação por garbage collector: objetos alocados dinamicamente, quando não possuem mais
+referência para eles, serão desalocados pelo garbage collector
+Desalocação por escopo: variáveis locais são desalocadas imediatamente assim que seu escopo
+local sai de execução

@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Tipos referência %28classes%29 vs. tipos valor%28struct%29.txt" />
+  </ItemGroup>
+
 </Project>
