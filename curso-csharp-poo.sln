@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tópico 02 - OO Básico", "
 		Tópico 02 - OO Básico\02 - Properties.txt = Tópico 02 - OO Básico\02 - Properties.txt
 		Tópico 02 - OO Básico\03 - Tipos referência (classes) vs. tipos valor(struct).txt = Tópico 02 - OO Básico\03 - Tipos referência (classes) vs. tipos valor(struct).txt
 		Tópico 02 - OO Básico\04 - Conceitos de desalocação.txt = Tópico 02 - OO Básico\04 - Conceitos de desalocação.txt
-		05 - Listas.txt = 05 - Listas.txt
+		Tópico 02 - OO Básico\05 - Listas.txt = Tópico 02 - OO Básico\05 - Listas.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio05", "Tópico 02 - OO Básico\Exercicio05\Exercicio05.csproj", "{89070B70-EE44-479D-90DA-8787756C2E79}"
