@@ -19,13 +19,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tópico 02 - OO Básico", "
 		Tópico 02 - OO Básico\02 - Properties.txt = Tópico 02 - OO Básico\02 - Properties.txt
 		Tópico 02 - OO Básico\03 - Tipos referência (classes) vs. tipos valor(struct).txt = Tópico 02 - OO Básico\03 - Tipos referência (classes) vs. tipos valor(struct).txt
 		Tópico 02 - OO Básico\04 - Conceitos de desalocação.txt = Tópico 02 - OO Básico\04 - Conceitos de desalocação.txt
+		05 - Listas.txt = 05 - Listas.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio05", "Tópico 02 - OO Básico\Exercicio05\Exercicio05.csproj", "{89070B70-EE44-479D-90DA-8787756C2E79}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio06", "Tópico 02 - OO Básico\Exercicio06\Exercicio06.csproj", "{AB92A8CA-FCF1-4499-B0F7-603533955BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio07", "Tópico 02 - OO Básico\Exercicio07\Exercicio07.csproj", "{922E84FB-984D-42ED-AC4F-20496C62A628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio07", "Tópico 02 - OO Básico\Exercicio07\Exercicio07.csproj", "{922E84FB-984D-42ED-AC4F-20496C62A628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio08", "Tópico 02 - OO Básico\Exercicio08\Exercicio08.csproj", "{F6D19F31-6635-47B8-A04A-3F624DF2D0EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +64,10 @@ Global
 		{922E84FB-984D-42ED-AC4F-20496C62A628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{922E84FB-984D-42ED-AC4F-20496C62A628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{922E84FB-984D-42ED-AC4F-20496C62A628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D19F31-6635-47B8-A04A-3F624DF2D0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D19F31-6635-47B8-A04A-3F624DF2D0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D19F31-6635-47B8-A04A-3F624DF2D0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D19F31-6635-47B8-A04A-3F624DF2D0EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +80,7 @@ Global
 		{89070B70-EE44-479D-90DA-8787756C2E79} = {C5499D86-6A23-496A-9560-681CB6FDBD11}
 		{AB92A8CA-FCF1-4499-B0F7-603533955BB4} = {C5499D86-6A23-496A-9560-681CB6FDBD11}
 		{922E84FB-984D-42ED-AC4F-20496C62A628} = {C5499D86-6A23-496A-9560-681CB6FDBD11}
+		{F6D19F31-6635-47B8-A04A-3F624DF2D0EE} = {C5499D86-6A23-496A-9560-681CB6FDBD11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01BD2BB3-D7AD-41B9-979C-340496ACE902}
