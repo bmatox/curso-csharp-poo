@@ -13,6 +13,8 @@ aumento por porcentagem dada.
 
 */
 
+using System.Globalization;
+
 namespace Exercicio09
 {
     internal class Funcionario
@@ -20,7 +22,7 @@ namespace Exercicio09
 
         public int id { get; set; }
         public string nome { get; set; }
-        public double salario { get; set;}
+        public double salario { get; private set;}
 
         public Funcionario(int id, string nome, double salario)
         {
@@ -29,9 +31,14 @@ namespace Exercicio09
             this.salario = salario;
         }
 
+        public void AumentoDeSalario (double percentual)
+        {
+            salario = salario + salario*(percentual/100);
+        }
+
         public override string ToString()
         {
-            return "DADOS ATUALIZADOS DO FUNCIONÁRIO: ";
+            return id + ", " + nome + ", R$ " + salario.ToString("F2", CultureInfo.InvariantCulture) + "\n";
         }
     }
 }
