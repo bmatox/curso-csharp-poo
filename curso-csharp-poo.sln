@@ -28,9 +28,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio06", "Tópico 02 -
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio07", "Tópico 02 - OO Básico\Exercicio07\Exercicio07.csproj", "{922E84FB-984D-42ED-AC4F-20496C62A628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio08", "Tópico 02 - OO Básico\Exercicio08\Exercicio08.csproj", "{F6D19F31-6635-47B8-A04A-3F624DF2D0EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio08", "Tópico 02 - OO Básico\Exercicio08\Exercicio08.csproj", "{F6D19F31-6635-47B8-A04A-3F624DF2D0EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio09", "Tópico 02 - OO Básico\Exercicio09\Exercicio09.csproj", "{9E020B73-4471-439C-B21D-6A3ACCD24E79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio09", "Tópico 02 - OO Básico\Exercicio09\Exercicio09.csproj", "{9E020B73-4471-439C-B21D-6A3ACCD24E79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tópico 03 - OO Intermediário", "Tópico 03 - OO Intermediário", "{518929AC-2D46-472A-A19B-9A5EA7EBC2BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
