@@ -53,6 +53,5 @@ internal class Program
             Console.WriteLine(list[i].ToString()); 
         }
 
-
     }
 }
