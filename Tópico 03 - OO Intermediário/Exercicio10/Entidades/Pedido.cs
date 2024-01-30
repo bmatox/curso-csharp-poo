@@ -1,5 +1,5 @@
 ﻿using System;
-using Exercicio10.Entidades.Enums; // precisou adicionar para buscar o atributo do tipo enum, que estava dentro de outro namespace.
+using Exercicio10.Entidades.Enums; // precisou adicionar para buscar o atributo do tipo enum (Status Pedido), que estava dentro de outro namespace.
 
 namespace Exercicio10.Entidades
 {
