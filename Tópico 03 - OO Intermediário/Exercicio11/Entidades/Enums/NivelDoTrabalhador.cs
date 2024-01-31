@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Exercicio11.Entidades.Enums
 {
-    internal class NivelDoTrabalhador
+    internal enum NivelDoTrabalhador : int
     {
+        Junior = 0,
+        Pleno = 1,
+        Senior = 2
     }
 }
