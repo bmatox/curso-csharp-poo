@@ -64,5 +64,13 @@ namespace Exercicio11.Entidades
             return soma;
         }
         */
+
+        public override string ToString()
+        {
+            return "Nome: "
+                + Nome
+                + "\nDepartamento: "
+                + Departamento;
+        }
     }
 }
