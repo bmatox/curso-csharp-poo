@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercicio11.Entidades
+﻿namespace Exercicio11.Entidades
 {
     internal class ContratoDeHora
     {
-        public DateTime Date { get; set; }
+        public DateTime Data { get; set; }
         public double ValorPorHora { get; set; }
         public int Horas { get; set; }
 
@@ -19,12 +13,12 @@ namespace Exercicio11.Entidades
 
         public ContratoDeHora(DateTime date, double valorPorHora, int horas)
         {
-            Date = date;
+            Data = date;
             ValorPorHora = valorPorHora;
             Horas = horas;
         }
 
-        public double TotalValue()
+        public double ValorTotal()
         {
             return this.ValorPorHora * this.Horas;
         }
