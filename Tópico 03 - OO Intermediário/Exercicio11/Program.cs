@@ -52,6 +52,7 @@ internal class Program
         // Converter cada parte da matriz em um inteiro usando o método int.Parse
         int mes1 = int.Parse(partes[0]); 
         int ano1 = int.Parse(partes[1]);
+
         Console.WriteLine("Nome: " + trabalhador.Nome);
         Console.WriteLine("Departamento: " + trabalhador.Departamento.Name);
         Console.WriteLine("Ganho para " + mesano + ": R$ " + trabalhador.Ganho(mes1, ano1).ToString("F2", CultureInfo.InvariantCulture));

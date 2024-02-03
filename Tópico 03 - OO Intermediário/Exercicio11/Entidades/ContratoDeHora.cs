@@ -20,7 +20,7 @@
 
         public double ValorTotal()
         {
-            return this.ValorPorHora * this.Horas;
+            return ValorPorHora * Horas;
         }
     }
 }
