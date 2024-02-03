@@ -9,10 +9,14 @@ using System.Diagnostics.Metrics;
 internal class Program
 {
     private static void Main(string[] args)
-    {
+    {   
+        // DADOS DO TRABALHADOR E INSTANCIAÇÃO
+
         Console.Write("Entre com o nome do departamento: ");
         string name = Console.ReadLine();
         Departamento dep = new Departamento(name);
+
+        // DADOS DO TRABALHADOR E INSTANCIAÇÃO
 
         Console.WriteLine("Entre com os dados do trabalhador: ");
         Console.Write("Nome: ");
@@ -23,16 +27,15 @@ internal class Program
         Console.Write("Salário base: ");
         double salariobase = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
         Trabalhador trabalhador = new Trabalhador(name1, nt, salariobase, dep);
+        
         Console.Write("Quantos contratos para esse trabalhador? ");
         int numerocontratos = int.Parse(Console.ReadLine());
+               
         for (int i = 0; i < numerocontratos; i++)
         {
             Console.WriteLine("Entre com os dados contrato #" + (i+1) + ":");
             Console.Write("Data (DD/MM/AAAA): ");
-            string data = Console.ReadLine();
-            string formato = "dd/MM/yyyy";
-            IFormatProvider provedor = CultureInfo.InvariantCulture;
-            DateTime data1 = DateTime.ParseExact(data, formato, provedor);
+            DateTime data1 = DateTime.Parse(Console.ReadLine());
             Console.Write("Valor por hora: ");
             double vph = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Duração (horas): ");
