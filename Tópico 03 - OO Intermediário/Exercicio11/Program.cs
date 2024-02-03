@@ -14,10 +14,10 @@ internal class Program
         string name = Console.ReadLine();
         Departamento dep = new Departamento(name);
 
-        Console.Write("Entre com os dados do trabalhador: ");
+        Console.WriteLine("Entre com os dados do trabalhador: ");
         Console.Write("Nome: ");
         string name1 = Console.ReadLine();
-        Console.Write("Nível(Junior / Pleno / Senior): ");
+        Console.Write("Nível (Junior/Pleno/Senior): ");
         string nivel = Console.ReadLine();
         NivelDoTrabalhador nt = Enum.Parse<NivelDoTrabalhador>(nivel);
         Console.Write("Salário base: ");
@@ -27,8 +27,8 @@ internal class Program
         int numerocontratos = int.Parse(Console.ReadLine());
         for (int i = 0; i < numerocontratos; i++)
         {
-            Console.Write("Entre com os dados contrato #" + (i+1) +":");
-            Console.Write("Date(DD/ MM / YYYY): ");
+            Console.WriteLine("Entre com os dados contrato #" + (i+1) + ":");
+            Console.Write("Data (DD/MM/AAAA): ");
             string data = Console.ReadLine();
             string formato = "dd/MM/yyyy";
             IFormatProvider provedor = CultureInfo.InvariantCulture;
@@ -40,7 +40,7 @@ internal class Program
             ContratoDeHora contratoDeHora = new ContratoDeHora(data1, vph, duracao);
             trabalhador.AdicionarContrato(contratoDeHora);
         }
-        Console.WriteLine("Entre com o mês e ano para calcular o ganho: ");
+        Console.Write("Entre com o mês e ano para calcular o ganho (MM/AAAA): ");
         string mesano = Console.ReadLine();
 
         // Separar a string em uma matriz de strings usando a barra como separador
