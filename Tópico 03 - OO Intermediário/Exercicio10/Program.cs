@@ -1,6 +1,6 @@
-﻿using Exercicio10.Entidades;
+﻿// Enumeração e composição
+using Exercicio10.Entidades;
 using Exercicio10.Entidades.Enums;
-
 internal class Program
 {
     private static void Main(string[] args)
