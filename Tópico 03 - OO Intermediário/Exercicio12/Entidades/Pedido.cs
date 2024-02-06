@@ -15,11 +15,10 @@ namespace Exercicio12.Entidades
             
         }
 
-        public Pedido(DateTime horadoPedido, StatusDoPedido statusPedido, List<ItemPedido> itens, Cliente cliente)
+        public Pedido(StatusDoPedido statusPedido, Cliente cliente)
         {
-            HoradoPedido = horadoPedido;
+            HoradoPedido = DateTime.Now;
             StatusPedido = statusPedido;
-            Itens = itens;
             Cliente = cliente;
         }
 
@@ -31,6 +30,16 @@ namespace Exercicio12.Entidades
         public void RemoveItem(ItemPedido itempedido)
         {
             Itens.Remove(itempedido);
+        }
+
+        public double Total()
+        {
+            double somatotal = 0.0;
+            foreach (ItemPedido itens in Itens)
+            {
+                somatotal += itens.subTotal();
+            }
+            return somatotal;
         }
     }
 }
