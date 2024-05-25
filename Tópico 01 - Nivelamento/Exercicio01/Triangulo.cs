@@ -7,7 +7,7 @@ namespace Exercicio01
     {
         public double A;
         public double B;
-        public double C;
+        public double C; //
         public Triangulo(double a, double b, double c)
         {
             A = a;
@@ -17,7 +17,7 @@ namespace Exercicio01
         }
         public double Area()
         {
-            double p = (A + B + C) / 2.0;
+            double p = (A + B + C) / 2.0; //
             return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
         }
 
